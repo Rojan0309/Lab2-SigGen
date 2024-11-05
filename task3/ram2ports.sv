@@ -7,7 +7,7 @@ module ram2ports #(
     input logic                             rd_en,
     input logic     [ADDRESS_WIDTH-1:0]     wr_addr,
     input logic     [ADDRESS_WIDTH-1:0]     rd_addr,
-    input logic    [DATA_WIDTH-1:0]        din,
+    input logic     [DATA_WIDTH-1:0]        din,
     output logic    [DATA_WIDTH-1:0]        dout
 );
 
