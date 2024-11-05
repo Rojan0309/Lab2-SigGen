@@ -25,7 +25,7 @@ counter addrCounter (
 
 assign address2 = address + offset;
 
-rom sineRom (
+rom2ports sineRom (
     .clk (clk),
     .addr1 (address),
     .addr2 (address2),

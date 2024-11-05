@@ -1,4 +1,4 @@
-module rom #(
+module rom2ports #(
     parameter ADDRESS_WIDTH = 8,
               DATA_WIDTH = 8
 )(
